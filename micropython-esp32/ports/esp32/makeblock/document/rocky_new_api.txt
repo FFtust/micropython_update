@@ -1,0 +1,116 @@
+函数：stop()
+功能：停止小车
+参数: 无
+返回值：无
+举例: rocky.stop
+
+函数：forward(power)
+功能：小车前进
+参数: power: 0 - 100
+返回值：无
+举例: rocky.forward(100)
+
+函数：back(power)
+功能：小车后退
+参数: power: 0 - 100
+返回值：无
+举例: rocky.back(100)
+
+函数：left(power)
+功能：小车左转
+参数: power: 0 - 100
+返回值：无
+举例: rocky.left(100)
+
+函数：right(power)
+功能：小车右转
+参数: power: 0 - 100
+返回值：无
+举例: rocky.right(100)
+
+函数：drive(left_power, right_power)
+功能：小车控制左右轮
+参数: left_power: 0 - 100
+      right_power: 0 - 100
+返回值：无
+举例: rocky.drive(100, 100)
+
+函数：red()
+功能: 获取红色分量
+参数: 无
+返回值：0 - 255
+举例: rocky.red()
+
+函数：green()
+功能: 获取绿色分量
+参数: 无
+返回值：0 - 255
+举例: rocky.green()
+
+函数：blue()
+功能: 获取蓝色分量
+参数: 无
+返回值：0 - 255
+举例: rocky.blue()
+
+函数：color()
+功能: 获取颜色
+参数: 无
+返回值：颜色字符串，如下
+        "white"
+        "pink"
+        "red"
+        "orange" 
+        "yellow"
+        "green"
+        "cyan"
+        "blue"
+        "purple"
+        "black"
+        "gold"
+举例: rocky.color()
+
+函数：light_intensity()
+功能: 获取环境光强
+参数: 无
+返回值：0 - 100
+举例: rocky.light_intensity()
+
+函数：grey()
+功能: 获取灰度
+参数: 无
+返回值：0 - 100
+举例: rocky.grey()
+
+函数：light_reflect()
+功能: 获取反射光强
+参数: 无
+返回值：0 - 100
+举例: rocky.light_reflect()
+
+函数：ir_reflect()
+功能: 获取反射红外强度
+参数: 无
+返回值：0 - 100
+举例: rocky.ir_reflect()
+
+函数：is_obstacle_ahead()
+功能: 判断是否有障碍
+参数: 无
+返回值：True / False
+举例: rocky.is_obstacle_ahead()
+   
+函数：set_grb(r, g, b)  # 这个grb写反了， 暂时先用这个， 后面会修改
+功能: 设置RGB颜色
+参数: r: 0 - 255
+      g: 0 - 255
+      b: 0 - 255
+返回值：无
+举例: rocky.set_grb()
+
+函数：motor_current(direction)
+功能: 获取电机电流
+参数: direction : "left" / "right"
+返回值：0 - 100
+举例: rocky.motor_current("left")
+
